@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/imakeable-cal",
+	"version": "0.1.0",
+	"title": "I Makeable Cal",
+	"category": "text",
+	"icon": "flag",
+	"description": "Manage your appointment calendars!",
+	"attributes": {
+		"message": {
+			"type": "string",
+			"source": "text",
+			"selector": "div"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "imakeable-cal",
+	"editorScript": "file:./index.js"
+}
